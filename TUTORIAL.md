@@ -25,12 +25,13 @@ Complete the tasks below
 - Your `appointments` table should have a `time` column
 - You should have at least three rows in your `services` table for the different services you offer
 - You should create a script file named `salon.sh` in the `project` folder
-- Your script file should have a “shebang!” that uses bash when the file is executed (use `#! /bin/bash`)
+- Your script file should have a “shebang” that uses bash when the file is executed (use `#! /bin/bash`)
 - Your script file should have executable permissions
 - You should not use the `clear` command in your script
-- You should greet users with a numbered list of the services you offer 
+- You should display list of the services you offer before the first prompt
 - Your script should prompt users to enter a service, phone number, a name if they aren’t already a customer, and a time
 - If a phone number entered doesn’t exist, you should get the customers name and enter it and the phone number into the `customers` table
-- You can create an appointment in your database by running your script and entering `1`, `555-555-5555`, `Fabio`, `10:30` at each request for input if that phone number isn’t in the `customers` table
-- You can create another appointment in your database by running your script and entering `2`, `555-555-5555`, `noon` at each request for input if that phone number is already in the `customers` table
+- You can create a row in the `appointments` table by running your script and entering `1`, `555-555-5555`, `Fabio`, `10:30` at each request for input if that phone number isn’t in the `customers` table. The row would have the `customer_id` for that customer, and the `service_id` for the service entered
+- You can create another row in the `appointments` table by running your script and entering `2`, `555-555-5555`, `noon` at each request for input if that phone number is already in the `customers` table. The row would have the `customer_id` for that customer, and the `service_id` for the service entered
+- Running the above should create a row in the `appointments` table with the `customer_id` for that customer, and the `service_id` for the service entered
 - After an appointment is successfully added, you should output the message `I have put you down for a <service> at <time>, <name>.` For example, if the user chooses `cut` as the service, `10:30` is entered for the time, and their name is `Fabio` in the database the output would be `I have put your down for a cut at 10:30, Fabio.`
