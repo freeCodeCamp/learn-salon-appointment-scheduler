@@ -10,6 +10,7 @@ Notes:
 - Don't forget to connect to your database to add tables after you create it :smile:
 - Tests check the script output so don't use the clear command
 - See `examples.txt` for example output of a passing script
+- The tests may add data to your database, feel free to delete it if you want
 
 ### 1.1
 
