@@ -41,7 +41,7 @@
       "id": "1",
       "title": "Instructions",
       "summary": "Create your database by logging in to psql with the command `psql --username=...",
-      "content": "Create your database by logging in to psql with the command `psql --username=freecodecamp --dbname=postgres`. You can query the database in your script with `psql --username=freecodecamp --dbname=salon -c \"SQL QUERY HERE\"`, add more flags if you need to. Be sure to get creative, and have fun!\n\nNotes:\n- Don't forget to connect to your database to add tables after you create it :smile:\n- Tests check the script output so don't use the clear command\n- See `examples.txt` for example output of a passing script\n- The tests may add data to your database, feel free to delete it if you want",
+      "content": "Create your database by logging in to psql with the command `psql --username=freecodecamp --dbname=postgres`. You can query the database in your script with `psql --username=freecodecamp --dbname=salon -c \"SQL QUERY HERE\"`, add more flags if you need to. Be sure to get creative, and have fun!\n\nNotes:\n- Don't forget to connect to your database to add tables after you create it :smile:\n- Tests check the script output so don't use the `clear` command\n- See `examples.txt` for example output of a passing script\n- The tests may add data to your database, feel free to delete it if you want",
       "steps": [
         {
           "id": "1.1",
