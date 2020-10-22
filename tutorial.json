@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": {
     "title": "Celestial Bodies Database",
     "description": "> Welcome! Are you ready to build a database of the universe?"
@@ -14,11 +14,11 @@
         "sudo -u postgres psql -c \"CREATE USER freecodecamp WITH CREATEDB;\""
       ],
       "commits": [
-        "7b4953c875926a0a054e9be826326abdc138cf03"
+        "247bebfc4b208392ffcf351c79e70883d1af8c3a"
       ]
     },
     "testRunner": {
-      "command": "./node_modules/.bin/mocha",
+      "command": "npm run programmatic-test",
       "args": {
         "filter": "--grep",
         "tap": "--reporter=mocha-tap-reporter"
@@ -27,7 +27,7 @@
     },
     "repo": {
       "uri": "https://github.com/moT01/.salon-appointment-scheduler",
-      "branch": "v0.1.0"
+      "branch": "v0.1.1"
     },
     "dependencies": [
       {
@@ -71,7 +71,7 @@
           ],
           "setup": {
             "commits": [
-              "2fb920901f19bc38e3dee64281f55f5916eeb570"
+              "688ed06e62f66681a4a0b75e07d77a566a95a741"
             ]
           }
         }
