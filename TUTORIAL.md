@@ -6,7 +6,10 @@
 
 Create your database by logging in to psql with the command `psql --username=freecodecamp --dbname=postgres`. You can query the database in your script with `psql --username=freecodecamp --dbname=salon -c "SQL QUERY HERE"`, add more flags if you need to. Be sure to get creative, and have fun!
 
-**Don't forget to connect to your database to add tables after you create it** :smile:
+Notes:
+- Don't forget to connect to your database to add tables after you create it :smile:
+- Tests check the script output so don't use the clear command
+- See `examples.txt` for example output of a passing script
 
 ### 1.1
 
