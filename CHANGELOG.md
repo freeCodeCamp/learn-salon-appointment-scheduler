@@ -14,3 +14,7 @@ Whenever something on the version branch gets changed, add the new branch name a
 
 - Remove auto-save from VSCode settings
 - Fix project name in VSCode settings
+
+## [v1.0.2]
+- Fix regex checking for shebang, to allow version without space
+- Fix project name, and description in `TUTORIAL.md`
