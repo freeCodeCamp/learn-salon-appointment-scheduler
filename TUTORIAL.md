@@ -1,6 +1,6 @@
-# Celestial Bodies Database
+# Salon Appointment Scheduler
 
-> Welcome! Are you ready to build a database of the universe?
+> Welcome to Salon Appointment Scheduler project!
 
 ## 1. Instructions
 
