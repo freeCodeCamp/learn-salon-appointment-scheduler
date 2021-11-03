@@ -27,7 +27,7 @@
       "directory": ".freeCodeCamp"
     },
     "repo": {
-      "uri": "https://github.com/gikf/learn-salon-appointment-scheduler",
+      "uri": "https://github.com/freeCodeCamp/learn-salon-appointment-scheduler",
       "branch": "v1.0.2"
     },
     "dependencies": [
@@ -72,7 +72,7 @@
           ],
           "setup": {
             "commits": [
-              "a6cf943a4803a853bc23259f3cf29f6f5f41f8de"
+              "908b03dcabcc3319d67767866a7c2d831a5dea19"
             ]
           }
         }
