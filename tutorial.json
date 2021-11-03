@@ -1,8 +1,8 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "summary": {
-    "title": "Celestial Bodies Database",
-    "description": "> Welcome! Are you ready to build a database of the universe?"
+    "title": "Salon Appointment Scheduler",
+    "description": "> Welcome to Salon Appointment Scheduler project!"
   },
   "config": {
     "setup": {
@@ -28,7 +28,7 @@
     },
     "repo": {
       "uri": "https://github.com/freeCodeCamp/learn-salon-appointment-scheduler",
-      "branch": "v1.0.1"
+      "branch": "v1.0.2"
     },
     "dependencies": [
       {
@@ -72,7 +72,7 @@
           ],
           "setup": {
             "commits": [
-              "b9950b19475038821afb8ea6eeedb360b3030390"
+              "908b03dcabcc3319d67767866a7c2d831a5dea19"
             ]
           }
         }
