@@ -24,3 +24,7 @@ Whenever a new version is created, add the new branch name and the changes here
 
 - Move startup commands to `setup.sh`
 - Run `setup.sh` on continue and reset
+
+## [v1.0.4]
+
+- Add timeout to mocha config
