@@ -1,6 +1,6 @@
 {
   "id": "freeCodeCamp/learn-salon-appointment-scheduler:v1.0.0",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "summary": {
     "title": "Salon Appointment Scheduler",
     "description": "> Welcome to Salon Appointment Scheduler project!"
@@ -12,7 +12,7 @@
         "cd .freeCodeCamp && npm install"
       ],
       "commits": [
-        "62147432ceb87ebe67061cdedffc6901b3285d1a"
+        "b4e9555a97a5bbad08ad7eb1c931cb685408c84d"
       ]
     },
     "testRunner": {
@@ -25,7 +25,7 @@
     },
     "repo": {
       "uri": "https://github.com/freeCodeCamp/learn-salon-appointment-scheduler",
-      "branch": "v1.0.3"
+      "branch": "v1.0.4"
     },
     "continue": {
       "commands": [
@@ -89,7 +89,7 @@
           ],
           "setup": {
             "commits": [
-              "fa4834d2a1cd1c944b8b5885d06113453173662f"
+              "709ef811954b3431a6d83292db1dc025393f9dc7"
             ]
           }
         }
