@@ -30,10 +30,10 @@ Complete the tasks below
 - Each primary key column should follow the naming convention, `table_name_id`. For example, the `customers` table should have a `customer_id` key. Note that there’s no `s` at the end of `customer`
 - Your `appointments` table should have a `customer_id` foreign key that references the `customer_id` column from the `customers` table
 - Your `appointments` table should have a `service_id` foreign key that references the `service_id` column from the `services` table
-- Your `customers` table should have `phone` that must be unique
+- Your `customers` table should have `phone` that is a `VARCHAR` and must be unique
 - Your `customers` and `services` tables should have a `name` column
-- Your `appointments` table should have a `time` column
-- You should have at least three rows in your `services` table for the different services you offer
+- Your `appointments` table should have a `time` column that is a `VARCHAR`
+- You should have at least three rows in your `services` table for the different services you offer, one with a `service_id` of `1`
 - You should create a script file named `salon.sh` in the `project` folder
 - Your script file should have a “shebang” that uses bash when the file is executed (use `#! /bin/bash`)
 - Your script file should have executable permissions
