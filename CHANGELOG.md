@@ -33,3 +33,7 @@ Whenever a new version is created, add the new branch name and the changes here
 
 - Update the cleaning of test data to try to make tests more lenient
 - Update user stories and tests 7, 9, and 10 to try and guide users to create what the tests expect
+
+## [v2.0.0]
+
+- Add Gitpod config
